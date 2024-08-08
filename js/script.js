@@ -17,4 +17,7 @@ function getHumanChoice() {
     return prompt("Rock, Paper, or Scissors?");
 }
 
-console.log(getHumanChoice());
+let humanScore, computerScore;
+
+humanScore = 0;
+computerScore = 0;
