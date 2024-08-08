@@ -39,7 +39,7 @@ function playGame() {
     playRound(getHumanChoice(), getComputerChoice());
     playRound(getHumanChoice(), getComputerChoice());
     playRound(getHumanChoice(), getComputerChoice());
-    
+
     if (humanScore > computerScore) {
         console.log("You won!");
     } else if (humanScore < computerScore) {
