@@ -3,14 +3,13 @@ function getRandomInteger(max) {
 }
 
 function getComputerChoice() {
-    let generator;
-    generator = getRandomInteger(3);
-    if (generator == 0) {
-        return "rock";
-    } else if (generator == 1) {
-        return "paper";
-    } else {
-        return "scissors";
+    switch (getRandomInteger(3)) {
+        case 0:
+            return "rock";
+        case 1:
+            return "paper";
+        case 2:
+            return "scissors";
     }
 }
 
