@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+    background-color: black;
+    color: white;
+
+}
+
+#human-area {
+    box-shadow: 5px 0px 0px 0px black;
+}
+
+.human, 
+.computer {
+    border-bottom: 5px solid black;
+}
+
+#human-area,
+#computer-area {
+    /*outline: 1px solid white;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+
+#game-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    padding: 20px;
+}
+
+#game-score-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#game-score-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #171717;
+}
+
+.score-box {
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#game-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    color: lightgray;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    /* padding: 10px; /* Adjusts the padding */
+    cursor: pointer;
+    outline: 2px solid lightgray;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+#reset-button:hover,
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#reset-button {
+
+    height: 25px;
+    width: 70px;
+    cursor: pointer;
+    outline: black;
+    border-radius: 30px;
+}
+
+#game-guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 10%;
+    background-color: black;
+    color: lightgray;
+    outline: 5px solid #171717;
+}
+
+i{
+    font-size: 20px;
+}
+
+* {
+	font-family: Garamond, Georgia, "Times New Roman", serif;
+}
+
+h1 {
+    font-family: 'Herr Von Muellerhoff', cursive;
+}
